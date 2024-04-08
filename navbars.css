@@ -1,0 +1,25 @@
+img {
+  margin: auto;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.body {
+  background-image: url(https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/hotelier-images/67/26/9fb4ead90d639c2d0bf4df7af684d528867bc6fa0c0d2b8dfedb8bc405f9.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 300px) {
+  .col-auto {
+    width: 40%;
+    max-width: 300px;
+  }
+}
